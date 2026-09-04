@@ -1,1 +1,5 @@
 # Advanced_Genomics-Hypervariable-_16s-_region_identity
+
+Access the html readable version at https://albertodebe.github.io/Advanced_Genomics-Hypervariable-_16s_region_identity/
+
+16S rRNA is widely used for bacteria taxonomy, using a 97% identity threshold for differentiating species. In particular V3-V4 regions are considered hypervariable, and often used for the aforementioned scope, instead of the full sequence. The aim of this analysis is investigating the variability of this region as opposed to the entirety of the sequence, verifying that the 97% threshold holds the same significance for V3-V4 and the full gene. If the region is really more diverse, the current threshold would need to be adjusted to avoid overestimation of the real diversity. The pipeline to address this aligns a subsample of the given sequences, calculates the pairwise identities of both full-length genes and V3-V4 regions, and uses linear regression to test the null hypothesis that beta=1, meaning that the V3-V4 region is changing at the exact same rate as the rest of the gene, indicating a new identity threshold for the region.
